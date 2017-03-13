@@ -15,5 +15,6 @@ export class Store {
         private _http: Http
     ) {
         console.log(this._http);
+        // remotedev(this, {glboal: true})
     }
 }
